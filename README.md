@@ -25,7 +25,6 @@ This project implements a **HomeKit Bridge** that:
 ## Project Structure
 
 ```
-/Users/balajibh/Projects/keus/hap-nodejs/
 ├── index.js                 # Basic single accessory example
 ├── index-optimized.js       # Bridge with batch operations (recommended)
 ├── package.json             # Dependencies and metadata
@@ -35,15 +34,12 @@ This project implements a **HomeKit Bridge** that:
 ## Installation
 
 ### Prerequisites
-- Node.js 14+ 
+- Node.js 21+ 
 - npm or yarn
 
 ### Setup
 
 ```bash
-# Clone or navigate to the project
-cd /Users/balajibh/Projects/keus/hap-nodejs
-
 # Install dependencies
 npm install
 
@@ -57,17 +53,6 @@ npm list @homebridge/hap-nodejs
 
 ```bash
 node index-optimized.js
-```
-
-**Output:**
-```
-============================================
-HomeKit Bridge (BATCH MODE) is running!
-Bridge Name : My Home Bridge
-PIN Code    : 031-45-154
-Port        : 47129
-Accessories : Living Room Light, Bedroom Fan
-============================================
 ```
 
 ### Add Bridge to Apple HomeKit
@@ -85,7 +70,7 @@ Accessories : Living Room Light, Bedroom Fan
 ```
 ┌─────────────────────────────────────┐
 │      HomeKit Bridge                 │
-│  (My Home Bridge - Port 47129)      │
+│  (My Home Bridge - Port 1234)      │
 └─────────────────────────────────────┘
            ↓
     ┌──────────────┐
