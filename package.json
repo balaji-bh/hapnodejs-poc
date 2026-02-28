@@ -1,0 +1,15 @@
+{
+  "name": "hap-nodejs-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "HomeKit Bridge demo with light and fan accessories using HAP-NodeJS",
+  "dependencies": {
+    "@homebridge/hap-nodejs": "^2.1.0"
+  }
+}

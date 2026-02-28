@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npm install:*)",
+      "Bash(cd /Users/balajibh/Projects/keus/hap-nodejs-latest-fork/HAP-NodeJS && npm run build 2>&1)",
+      "Bash(md5:*)",
+      "Bash(echo done:*)",
+      "Bash(node:*)"
+    ]
+  }
+}
